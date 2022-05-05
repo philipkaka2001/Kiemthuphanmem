@@ -1,0 +1,4 @@
+pytest test_LoginPage.py -v --html=./hubSpot.html
+pytest test_LoginPage.py
+pytest test_LoginPage.py -v -n 3 --html=./hubSpot.html
+pytest test_HomePage.py -v -n 3 --html=./hubSpot.html
